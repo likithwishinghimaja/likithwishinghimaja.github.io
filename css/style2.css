@@ -1,0 +1,16 @@
+body {
+    background-color: rgb(167, 248, 167); /* set the background color here */
+    color: black; /* set the text color to black here */
+    font-family: Arial, Helvetica, sans-serif;  /* set the font here */
+    text-align: center; /* set the text alignment here */
+   }
+   p {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    font-family: cursive;
+   }
+   footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }

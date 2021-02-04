@@ -1,0 +1,30 @@
+body {
+    background-color: lightgreen; /* set the background color here */
+    color: black; /* set the text color to black here */
+    font-family: Arial, Helvetica, sans-serif;  /* set the font here */
+    text-align: center; /* set the text alignment here */
+   }
+   h1 {
+    margin-bottom: 0.5rem;
+    margin-top: 3rem;
+    font-family: cursive;
+   }
+   h2 {
+    color: black; /* set the text color of to #075AAB here */
+    /* set both the bottom margin and top margin to 2.5rem here */
+    font-family: cursive;
+    margin-bottom: 2.5rem;
+    margin-top: 2.5rem;
+   }
+   img{
+    background-image: url("img/1.jpeg");
+    height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+  }
+  footer {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+  }

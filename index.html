@@ -11,7 +11,7 @@
       function checkPassword(){
        if(document.getElementById('password').value == 'hello'){
         alert('Correct Password!'); 
-          location.href = "https://likithwishinghimaja.github.io/1.html";
+          window.open("https://likithwishinghimaja.github.io/1.html");
          } else {
          alert('Wrong Password!');
           return false;
@@ -24,7 +24,7 @@
 <center id="a"><b>First thing I want to say sorry for using pictures of yours, to make this website with out your permission.Hope you forgive me<br>
    
 
-    <a href="1.html" target="_blank">click here if you want to navigate through website</a><br>
+    
     <input type="password" id="password" /><br />
     <div class="buttons">
                     <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />

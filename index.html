@@ -7,6 +7,11 @@
         LIKITH SAI Wishing to SAI HIMAJA DANDU
     </title>
     <link rel="stylesheet" href="css/style.css">
+    <script>
+        function onSubmit() {
+          if (document.getElementById('password').value == '12345678') {window.location.href = 'http://google.co.in'; }else{ alert('Please check your passcode and try again');}
+     }
+    </script>
 </head>
 <body>
     <p>
@@ -17,7 +22,7 @@
     <input type="password" placeholder="Enter Password" name="password" required>  
             <button type="submit">Login</button>  <br> 
             <input type="checkbox" checked="checked"> Remember me   
-            <button type="button" class="cancelbtn"> Cancel</button><br>
+            <button type="button" class="cancelbtn" onclick="OnSubmit()"> Cancel</button><br>
 </b></center>
 </p>
 <footer>

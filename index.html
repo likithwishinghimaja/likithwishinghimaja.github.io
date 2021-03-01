@@ -17,6 +17,14 @@
           return false;
         }
        }
+        function myFunction() {
+  var x = document.getElementById("myInput");
+  if (x.type === "password") {
+    x.type = "text";
+  } else {
+    x.type = "password";
+  }
+}
       </script>
 </head>
 <body>
@@ -29,6 +37,7 @@
     <div class="buttons">
                     <input class="orangebutton" type="button" value="Login" onclick="checkPassword()" />
                 </div>
+    <input type="checkbox" onclick="myFunction()">Show Password
     
 </b></center>
 </p>
